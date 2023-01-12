@@ -1,27 +1,28 @@
-package com.company;
-
 import java.util.ArrayList;
 import java.util.Set;
-
 public class Main {
 
-    public static void main(String[] args) {
-	// write your code here
+    public static void main(String[] args) 
+    {
+        System.out.println("hello");
     }
 
     //Question 1
-    public static void fizzBuzz(){
-
+    public static void fizzBuzz()
+    {
+        
     }
 
     //Question 2
-    public static boolean isEven(Integer num){
+    public static boolean isEven(Integer num)
+    {
 
         return false;
     }
 
     //Question 3
-    public static Integer getMinimum(Integer[] numbers){
+    public static Integer getMinimum(Integer[] numbers)
+    {
 
         return null;
     }
