@@ -1,29 +1,50 @@
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Set;
 public class Main {
 
     public static void main(String[] args) 
     {
+
         System.out.println("hello");
+        System.out.println(isEven(9));;
     }
 
     //Question 1
     public static void fizzBuzz()
     {
-        
+        for(int x=1; x<=15; x++)
+        {
+            if(x%3==0)
+            {
+                if(x%5==0)
+                {
+                    System.out.println("Fizzbuzz");
+                    return;
+                }
+                System.out.println("Fizz");
+            }
+            if(x%5==0)
+            {
+                System.out.println("buzz");
+            }
+        }
     }
 
     //Question 2
     public static boolean isEven(Integer num)
     {
-
+        if(num%2==0)
+        {
+            return true;
+        }
         return false;
     }
 
     //Question 3
     public static Integer getMinimum(Integer[] numbers)
     {
-
+        
         return null;
     }
 
